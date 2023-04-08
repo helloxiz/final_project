@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="assets/img/logo.png" type="image/png">
+        <title>Xi Zhang's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" id="jump-to-top" class="nav__logo"><img src="assets/img/logo.png" width="40px" alt="Xi Zhang_logo"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="ux.html" class="nav__link">UX Project</a></li>
+                        <li class="nav__item"><a href="other.html" class="nav__link">Other Work</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Xi Zhang</span><br> UX Designer</h1>
+                    <a href="ux.html" class="button">View My Work</a>
+                </div>
+
+                <div class="home__img">
+                    <image src="assets/img/portrait.png" width="500" alt="photo of Xi"/>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" wdith="600px" alt="Xi's photo">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Xi</h2>
+                        <p class="about__text">A designer focuses on creating an enjoyable experience for people.</p>
+                        <p class="about__text">As an architect-trained designer with professional HCI training, I infuse my understanding of aesthetics and functionality into creating user-centric digital experiences that are both visually appealing and intuitive to navigate.</p>
+                        <p class="about__text">Currently studying Human-Computer Interaction @ University of Michigan</p>
+                        <p class="about__text"></p>
+                        Graduated from University of Virginia | Previously worked @ Bjarke Ingels Group </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== UX Project =====-->
+            <section class="ux section" id="ux">
+                <h2 class="section-title">UX Project</h2>
+
+                <div class="ux__container bd-grid">
+                    <div>
+                        <img src="assets/img/Cover.png" alt="project cover" class="ux__img">
+                    </div>
+                    <div>
+                        <h2 class="ux__subtitle">MeetSpace</h2>
+                        <p class="ux__text">An app that makes hybrid work easy.</p>
+                        <a href="ux.html" class="ux__button">View Case Study</a>
+                    </div>
+
+                    
+
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Other Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://www.archdaily.com/950923/big-selected-to-design-a-socially-engaging-hub-for-the-johns-hopkins-university" class="work__img">
+                        <img src="assets/img/work1.jpeg" alt="JHU student center">
+                    </a>
+                    <a href="https://big.dk/projects/google-hq-3070" class="work__img">
+                        <img src="assets/img/work2.jpeg" alt="Google Charleston East">
+                    </a>
+                    
+                </div>
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Nice to meet you</p>
+            <p class="footer__copy">Xi Zhang &#169; Crafted at 2023</p>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+
+        <script>
+            document.getElementById('jump-to-top').addEventListener('click', function(event) {
+              event.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+          </script>
+    </body>
+</html>

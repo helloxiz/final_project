@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="assets/img/logo.png" type="image/png">
+        <title>Xi Zhang's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" id="jump-to-top" class="nav__logo"><img src="assets/img/logo.png" width="40px" alt="Xi Zhang_logo"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="ux.html" class="nav__link">UX Project</a></li>
+                        <li class="nav__item"><a href="other.html" class="nav__link  active">Other Work</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== ABOUT =====-->
+            <section class="work section" id="work">
+
+                <div class="project__container">
+                    <div class="column">
+                    <a href="https://www.archdaily.com/950923/big-selected-to-design-a-socially-engaging-hub-for-the-johns-hopkins-university" class="work__img">
+                        <img src="assets/img/work1.jpeg" alt="JHU student center">
+                    </a>
+                    </div>
+                     <div class="column">
+                        <h2 class="section-subtitle" style="color:#684ADE">Johns Hopkins University Student Center </h2>
+                        <p>Johns Hopkins University has selected BIG to design its new Student Center, regenerating the heart of its campus and reviving the social experience, from a shortlisted list of 4 offices, after a months-long international competition. Entitled “The Village”, the proposal is an “open, modern, and welcoming facility envisioned as a social engagement hub for all members of the Hopkins community”.</p> <p>The proposal imagined as a central living room is surrounded by a collection of spaces tailored to the needs of the community. With entry from all four levels, the building maintains a friendly human scale, while the open façade reveals dining areas, spilling out onto the plaza.</p>
+                    </div>    
+                </div>
+
+                <div class="project__container">
+                    <div class="column">
+                        <a href="https://big.dk/projects/google-hq-3070" class="work__img">
+                            <img src="assets/img/work2.jpeg" alt="Google Charleston East">
+                        </a>
+                    </div>
+                     <div class="column">
+                        <h2 class="section-subtitle" style="color:#684ADE">Google Charleston East </h2>
+                        <p>Google Charleston East is grounded in our core principal to reflect the tech-company's culture of innovation through bold architecture and innovation. We strive to foster a sense of community while respectfully integrating the natural environment - by blurring the boundaries between outdoor and indoor, by ripping out asphalt in favor of nature, and by promoting pedestrian and bicycle traffic, even within the building - we hope to convert North Bayshore into a model community and set an even higher standard for Silicon Valley.</p>
+                    </div>    
+                </div>
+
+
+
+
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Nice to meet you</p>
+            <p class="footer__copy">Xi Zhang &#169; Crafted at 2023</p>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+        <script>
+            document.getElementById('jump-to-top').addEventListener('click', function(event) {
+              event.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+          </script>
+    </body>
+</html>

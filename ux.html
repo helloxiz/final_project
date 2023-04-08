@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="assets/img/logo.png" type="image/png">
+        <title>Xi Zhang's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" id="jump-to-top" class="nav__logo"><img src="assets/img/logo.png" width="40px" alt="Xi Zhang_logo"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="ux.html" class="nav__link active">UX Project</a></li>
+                        <li class="nav__item"><a href="other.html" class="nav__link">Other Work</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            <!--===== UX Project =====-->
+            <div class="ux__project" id="ux">
+                <div class="project__container">
+                    <img src="assets/img/page1.png" alt="project cover">
+                </div>
+            
+
+
+            <div class="project__container" style="background-color: #8e84fe48;">
+                <h2 class="section-subtitle">Background</h2>
+                <div class="column">
+                    <img src="assets/img/wfh.jpeg" alt="work from home">
+                    <p>In 2020, people across the globe experienced a rapid shift to remote work that upended their existing work practices.</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/office.jpeg" alt="work at office">
+                    <p>Over two years later, some are returning to the workplace and work practices are shifting once again – this time from remote to hybrid.</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/hybrid.jpeg" alt="hybrid work">
+                    <p>Hybrid work, a mix of remote and face-to-face work, will become more and more the norm for companies in many industries.</p>
+                </div>
+            </div>
+
+                <div class="project__container" style="background-color: rgb(255, 255, 255);">
+                    <h2 class="section-subtitle">Problem Statement</h2>
+                    <p>The breakout of Covid-19 has changed people’s lifestyles completely on a global scale. In particular, people’s working styles have completely changed. However, Although remote working effectively protects the health of the workers, it leaves a lot of workspaces unoccupied, which becomes a waste of cost for companies. Since hybrid working is a big trend affecting the future of work, how might we help companies build a flexible and attractive workspace through an efficient booking and scheduling system?</p>
+                </div>
+
+                <div class="project__container" style="background-color: #684ADE">
+                    <h2 class="section-subtitle" style="color:white">How might we help future companies to build a flexible and attractive workspace and an efficient scheduling meeting system within a hybrid working environment?</h2>
+                </div>
+
+                <div class="project__container" style="background-color: rgb(255, 255, 255);">
+                    <h2 class="section-subtitle">Solution</h2>
+                    <p>To help companies better organize their workspace and manage employees under the hybrid working mode, we designed an application named “Meetspace”. Meetspace empowers employees to book desks and spaces whenever they intend to work at the physical office. In addition, it implements a powerful scheduling system that helps teams find time slots that work for each team member. Meetspace holds the mission to provide a seamless hybrid working experience for companies and their employees.</p>
+                </div>
+
+                <div class="project__container">
+                    <img src="assets/img/page2.png" alt="prototype">
+                    <!-- <iframe width="1120" height="630" src="https://www.youtube.com/embed/BgzUDOGKWwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                    <!-- <img src="assets/img/bg1.png" alt="background image"> -->
+                </div>
+
+                <div class="project__container">
+                    <h2 class="section-subtitle">Final Design</h2>
+                <div class="column">
+                    <img src="assets/img/gif1.gif" alt="on boarding">
+                </div>
+                <div class="column">
+                    <h2 class="section-subtitle" style="color:#684ADE">WE CREATED AN APP MeetSpace </h2>
+                    <p>that empowers employees to book desks and spaces where they work the best & helps them schedule meetings that work for everyone</p>
+                </div>
+            </div>
+
+
+            <div class="project__container">
+                    <div class="column">
+                        <h2 class="section-subtitle" style="color:#684ADE">AI Meeting Scheduler </h2>
+                        <p>MeetSpace helps employees sync up their schedules and keep track of their availability. No fuss in finding a time that works for everyone because the AI always provides you with time slots when most invitees are free.</p>
+                    </div>
+                    <div class="column">
+                        <img src="assets/img/gif2.gif" alt="ai meeting scheduler">
+                    </div>
+            </div>
+
+            <div class="project__container">
+                <div class="column">
+                    <img src="assets/img/gif3.gif" alt="calendar">
+                </div>
+                <div class="column">
+                    <h2 class="section-subtitle" style="color:#684ADE">Team Calendar </h2>
+                    <p>Don’t let hybrid get in the way of working together. Check your co-workers' schedules to plan to work on-site as a team and book an 1-on-1 meeting with them.</p>
+                </div>
+                
+        </div>
+    </div>
+
+
+            </div>
+        </div>
+            </div>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Nice to meet you</p>
+            <p class="footer__copy">Xi Zhang &#169; Crafted at 2023</p>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+        <!-- <script src="assets/js/main.js"></script> -->
+        <script>
+            document.getElementById('jump-to-top').addEventListener('click', function(event) {
+              event.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+          </script>
+    </body>
+</html>
